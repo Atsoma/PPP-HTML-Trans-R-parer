@@ -1,8 +1,45 @@
 @font-face {
-    font-family: 'rubikblack';
-    src: url('rubik-black-webfont.woff2') format('woff2'),
-         url('rubik-black-webfont.woff') format('woff');
+    font-family: 'quicksandbook';
+    src: url('quicksand_book-webfont.woff2') format('woff2'),
+         url('quicksand_book-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
+
+
+@font-face2 {
+    font-family: 'amatic_scregular';
+    src: url('amaticsc-regular-webfont.woff2') format('woff2'),
+         url('amaticsc-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+}
+
+div button, div div a {
+    font-family: "amatic_scregular";
+    font-size: 1em;
+    
+}
+
+section {
+    font-family: "quicksandbook";
+    
+}
+
+header img {
+    align-items: center;
+    
+}
+
+article {
+    color : black;
+    
+}
+
+body {
+    background-color: #084263;
+    color:  white;
 }
